@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Animal World</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+	<h1>Welcome to the animal world!</h1>
+    <div style="display: flex; justify-content: center; align-items: center;">
+        <a href="/chickens" style="margin: 0 10px;">
+            <img src="/static/chicken_pic.jpg" alt="Chicken Picture" style="max-height: 200px;">
+        </a>
+        <a href="/ducks" style="margin: 0 10px;">
+            <img src="/static/duck_pic.jpg" alt="Duck Picture" style="max-height: 200px;">
+        </a>
+        <a href="/pandas" style="margin: 0 10px;">
+            <img src="/static/panda_pic.avif" alt="Panda Picture" style="max-height: 200px;">
+        </a>
+    </div>
+</body>
+</html>

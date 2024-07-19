@@ -1,0 +1,24 @@
+body {
+	font-family: "Segoe UI";
+	background-color: rgb(240, 240, 200);
+}
+
+h1 {
+	color: teal;
+	text-align: center;
+}
+
+.image-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+}
+
+.image-link {
+	margin: 0 10px;
+}
+
+.image {
+	max-height: 200px;
+}

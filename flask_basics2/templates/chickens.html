@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Chickens</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+	<h1>Learn About Chickens!</h1>
+	<!-- Insert pic of chicken here -->
+	<img src="{{ url_for('static', filename='chicken_pic.jpg') }}">
+	
+	<p>Imagine a fluffy, feathered bundle of joy with bright, curious eyes and a cheerful "cluck-cluck" that can brighten even the gloomiest day. That's the charm of chickens! These adorable avian friends waddle about with comical determination, their round bodies swaying and tail feathers bobbing as they peck and scratch at the ground. From the soft peeping of fuzzy chicks to the proud strut of a colorful rooster, chickens bring a delightful mix of cuteness and character to any backyard or farm. Their quirky personalities, endearing head tilts, and funny little dances as they search for treats make them nature's own entertainers, spreading smiles and laughter with every cluck and flutter.</p>
+	<!-- Add links -->
+	<a href="{{ url_for('chicken_info')}}">Learn About Ducks</a><br>
+	<a href="{{ url_for('panda_info')}}">Learn About Pandas</a><br>
+	<a href="{{ url_for('home')}}">Back To Home</a>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Analysis</title>
+</head>
+<body>
+    <h1>Text: {{ text }}</h1>
+    <hr>
+    <p>length of string: {{ length }}</p>
+    <p>number of digits: {{ num_digits }}</p>
+    <p>number of vowels: {{ num_vowels }}</p>
+    <h2>Frequency of letters:</h2>
+
+    <ul>
+        {% for char, freq in letter_freq.items() %}
+        <li>{{ char }} appeared {{ freq }}</li>
+
+        {% endfor %}
+    </ul>
+
+</body>
+</html>
+
+
+
+<div></div>
